@@ -26,7 +26,7 @@ const OurServices = () => {
               icon1={<SiWebcomponentsdotorg size={20} color="orange" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Enterprise software solutions"}
-              text2={"From idea to lunch, we build everything you need.  "}
+              text2={"From idea to launch, we build everything you need.  "}
               className={
                 "border-t border-r border-b border-gray-500 px-16 py-4 w-full"
               }
@@ -78,7 +78,7 @@ const OurServices = () => {
               icon1={<SiStartrek size={30} color="red" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Startup MVP development"}
-              text2={"From idea to lunch, we build everything you need.  "}
+              text2={"From idea to launch, we build everything you need.  "}
               className={
                 "border-t border-l border-b border-gray-500 px-16 py-4 w-full"
               }

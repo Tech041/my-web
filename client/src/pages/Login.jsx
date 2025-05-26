@@ -1,14 +1,11 @@
-import React, { useContext, useEffect } from "react";
+import React from "react";
 import axios from "axios";
-import { FaTable } from "react-icons/fa6";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import { AppContext } from "../context/AppContext";
+
 
 const Login = () => {
-  const navigate = useNavigate();
-  const { token } = useContext(AppContext);
+  
 
   const [emailError, setEmailError] = useState("");
   const [email, setEmail] = useState("");
@@ -37,11 +34,7 @@ const Login = () => {
       console.log(error);
     }
   };
-  useEffect(() => {
-    if (token) {
-      navigate("/messages");
-    }
-  }, []);
+
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="w-full max-w-sm bg-white p-6 rounded-lg shadow-md">

@@ -66,11 +66,11 @@ const Hero = () => {
           <div className="h-[20px] w-full hidden md:block"></div>
           <div className="flex flex-col md:flex-row  justify-between items-center gap-4">
             <div className="w-full h-full">
-              <h3 className="text-lg text-white font-semibold capitalize">
-                We do&apos;t just invest
+              <h3 className="text-lg text-white font-semibold">
+                We don&apos;t just build
               </h3>
               <p className="text-base text-gray-400">
-                We do&apos;t just invest, we are partners for building your
+                We  build, and we are partners for building  and maintaining your
                 entire tech solutions.
               </p>
             </div>

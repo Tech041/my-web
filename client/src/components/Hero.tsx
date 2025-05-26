@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="">
               <h2 className="text-cyan-500 text-lg font-semibold">Startups</h2>
               <p className="text-base py-2">
-                We build your MVP and sacle your vision.
+                We build your MVP and scale your vision.
               </p>
               <Button
                 children={"PITCH YOUR IDEA"}

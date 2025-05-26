@@ -53,7 +53,7 @@ const About = () => {
                     AI-Integrated eCommerce and learning management system
                     Platforms{" "}
                   </span>
-                  – Helping health businesses thrive with intelligent, automated
+                  – Helping  businesses thrive with intelligent, automated
                   solutions.
                 </span>
                 <span className="">

@@ -14,7 +14,7 @@ const Hero = () => {
             <h1 className="capitalize text-base  sm:text-lg md:text-2xl">
               your full tech
               <span className="bg-gradient-to-l from-purple-500 to-white px-2">
-                team
+                Team
               </span>
             </h1>
           </div>

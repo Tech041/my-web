@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import axios from "axios";
 import { FaTable } from "react-icons/fa6";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
+import { AppContext } from "../context/AppContext";
 
 const Login = () => {
   const navigate = useNavigate();
+  const { token } = useContext(AppContext);
+
   const [emailError, setEmailError] = useState("");
   const [email, setEmail] = useState("");
   const serverUrl = import.meta.env.VITE_SERVER_URL;
@@ -24,9 +27,8 @@ const Login = () => {
 
       const res = await axios.post(serverUrl + "/api/admin/login", data);
 
-      localStorage.setItem("token", res.data.token);
       if (res.data.success) {
-        navigate("/messages");
+        localStorage.setItem("token", res.data.token);
         toast.success(res.data.message);
       } else {
         toast.error(res.data.message);
@@ -35,6 +37,11 @@ const Login = () => {
       console.log(error);
     }
   };
+  useEffect(() => {
+    if (token) {
+      navigate("/messages");
+    }
+  }, []);
   return (
     <div className="flex items-center justify-center h-screen bg-gray-100">
       <div className="w-full max-w-sm bg-white p-6 rounded-lg shadow-md">

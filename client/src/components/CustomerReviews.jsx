@@ -3,31 +3,31 @@ import ReviewCard from "./ReviewCard";
 
 const CustomerReviews = () => {
   return (
-    <section className="pt-5">
+    <section className="pt-5" id="testimonials">
       <div className="container">
         <h1 className="text-center text-lg text-blue-900 font-semibold mb-5 ">
           Our Clients Reviews
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           <ReviewCard
-            name="Mrs Bruce"
+            name=" Bruce"
             rating={4}
-            review="Breast cancer healed with Kedi products.In 2008, I had a lump-like mass under my breast. In 2010, it regenereated  into tumor. In 2012, I used REISHI and Golden Hypha; and in few months, I was healed. Am still on those drugs to ensure the cancer cells are controlled permanently"
+            review="Outstanding service! They designed a sleek and functional website that exceeded our expectations. Their professionalism and attention to detail were remarkable!"
           />
           <ReviewCard
-            name="Engr Sam"
+            name="Samuel"
             rating={4}
-            review="As a physician , I recommed Kedi products for my patients because it has proven medically, to be safe and efficacious."
+            review="Fast, reliable, and highly skilled! The team transformed our digital presence and helped us attract more customers. Highly recommended"
           />
           <ReviewCard
-            name="Engr Humphery"
+            name=" Humphery"
             rating={4}
-            review="Kedi Refresh tea did wonders to my sight. I can now see both far and near ever since I started using the Refresh tea.It is so amazing."
+            review="Exceptional web solutions! From development to maintenance, their expertise ensured a seamless experience. Great communication and support throughout"
           />{" "}
           <ReviewCard
-            name="Mr Richard"
+            name="Richard"
             rating={4}
-            review="My knee joint was restored to normal with Jointeez. After years of stroke ,I could not move nor speak. I used Jointeez and everything is now past tense."
+            review="Impressed by their creativity and technical skills! They provided a custom website that perfectly matched our brand vision. Will definitely work with them again!"
           />
         </div>
       </div>

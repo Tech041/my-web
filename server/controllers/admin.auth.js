@@ -3,7 +3,6 @@ import jwt from "jsonwebtoken";
 export const login = async (req, res) => {
   try {
     const { email } = req.body;
-    console.log("Email is", email);
 
     if (!email) return;
 

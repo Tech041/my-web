@@ -7,6 +7,7 @@ import OurPortfolio from "../components/OurPortfolio";
 import CustomerReviews from "../components/CustomerReviews";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <OurPortfolio />
       <Contact />
       <CustomerReviews />
+      <Footer />
     </main>
   );
 };

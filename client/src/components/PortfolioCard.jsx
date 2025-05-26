@@ -24,7 +24,7 @@ const PortfolioCard = ({ type, link,src1,src2}) => {
           {type}
         </h1>
 
-        < a href={link} target="_blank" className="text-center  font-bold  py-1 text-green-700 hover:cursor-pointer ">View Live</a>
+        < a href={link} target="_blank" className="text-center  font-bold  py-1 text-green-700 hover:cursor-pointer ">Link</a>
       </div>
     </div>
   );

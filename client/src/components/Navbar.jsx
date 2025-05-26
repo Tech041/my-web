@@ -5,7 +5,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const mobileStyle = "cursor-pointer text-white w-[100px]";
 const liStyles = "hover:cursor-pointer hover:text-blue-400  px-2 ";
@@ -13,7 +13,7 @@ const liStyles = "hover:cursor-pointer hover:text-blue-400  px-2 ";
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <header className=" fixed py-2 h-auto w-full border-b border-blue-400  bg-white z-40">
+    <header className=" fixed py-2 h-auto w-full border-b border-blue-400  bg-white z-40" >
       <div className="container">
         <div className="flex items-center hover:cursor-pointer">
           {/* logo */}
@@ -27,7 +27,7 @@ const Navbar = () => {
                 />
               </span>
 
-              <span className="text-sm text-cyan-700 font-bold hidden sm:block ">
+              <span className="text-sm text-cyan-700 font-bold hidden lg:block ">
                 Neltechnologies
               </span>
             </a>
@@ -37,37 +37,35 @@ const Navbar = () => {
             <div className="flex-[3] hidden md:block ">
               <ul className="flex justify-center items-center gap-5 text-blue-900  font-semibold">
                 <li className={liStyles}>
-                  <a href="#home" className="">
+                  <a href="#about" className="">
                     About
                   </a>
                 </li>
                 <li className={liStyles}>
-                  <a href="#about" className="">
+                  <a href="#services" className="">
                     Services
                   </a>
                 </li>
 
                 <li className={liStyles}>
-                  <a href="#coverage" className="">
+                  <a href="#portfolio" className="">
                     Portfolio
                   </a>
                 </li>
                 <li className={liStyles}>
-                  <a href="#footer" className="">
+                  <a href="#testimonials" className="">
                     Testimonials
                   </a>
                 </li>
                 <li className={liStyles}>
-                  <Link to="/login" >
-                    Admin
-                  </Link>
+                  <Link to="/login">Admin</Link>
                 </li>
               </ul>
             </div>
             <div className="flex-1 flex  items-center gap-4 justify-end ">
               <Button
                 children={
-                  <a href="https://wa.link/n8bjn5" className="">
+                  <a href="#contact" className="">
                     CONTACT
                   </a>
                 }
@@ -100,7 +98,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <a href="#home" className="">
+                <a href="#about" className="">
                   About
                 </a>
               </li>
@@ -108,7 +106,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <a href="#about" className="">
+                <a href="#services" className="">
                   Services
                 </a>
               </li>
@@ -117,7 +115,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <a href="#coverage" className="">
+                <a href="#portfolio" className="">
                   Portfolio{" "}
                 </a>
               </li>
@@ -126,7 +124,7 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <a href="#footer" className="">
+                <a href="#testimonials" className="">
                   Testimonials
                 </a>
               </li>
@@ -134,16 +132,14 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <Link to="/login">
-                  Admin
-                </Link>
+                <Link to="/login">Admin</Link>
               </li>
             </ul>
             {/* social links */}
             <div className="flex items-center justify-center gap-5 pt-10 ">
               <div className=" bg-white p-2 rounded-full">
                 <a
-                  href="https://www.facebook.com/share/15qKR7eWkw/?mibextid=wwXIfr"
+                  href="https://www.facebook.com/mandela.nelson.18062"
                   target="_blank"
                   className=""
                 >
@@ -154,7 +150,7 @@ const Navbar = () => {
               </div>
               <div className="bg-white p-2 rounded-full">
                 <a
-                  href="https://www.instagram.com/official_babawaleayodele?igsh=dnJudW1nejd2OTQ0&utm_source=qr"
+                  href="https://www.linkedin.com/in/nel21"
                   target="_blank"
                   className=""
                 >
@@ -164,7 +160,7 @@ const Navbar = () => {
                 </a>
               </div>
               <div className="bg-white p-2 rounded-full">
-                <a href="https://wa.link/n8bjn5" target="_blank" className="">
+                <a href="https://wa.link/cfop30" target="_blank" className="">
                   <span className="">
                     <FaWhatsapp size={20} color="green" />
                   </span>

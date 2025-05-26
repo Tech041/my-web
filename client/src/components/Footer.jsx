@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <footer
       className="bg-[url('/footer.png')] bg-cover text-white h-full"
-      id="footer"
+      
     >
       <div className="container">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-14 my-10 mt-40 text-sm">
@@ -36,22 +36,22 @@ const Footer = () => {
             </p>
             <ul className="flex flex-col gap-1">
               <li className="cursor-pointer py-1">
-                <a href="#home" className="">
+                <a href="#about" className="">
                   About
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#benefits" className="">
+                <a href="#services" className="">
                   Services
                 </a>
               </li>
               <li className="cursor-pointer py-1">
-                <a href="#about" className="">
+                <a href="#portfolio" className="">
                   Portfolio
                 </a>
               </li>
               <li className="cursor-pointer">
-                <a href="#products" className="">
+                <a href="#testimonials" className="">
                   Testimonials
                 </a>
               </li>
@@ -71,7 +71,7 @@ const Footer = () => {
                 <div className="flex items-center justify-between gap-3  ">
                   <div className="">
                     <a
-                      href="https://www.facebook.com/share/1A8YHCQtsR/"
+                      href="https://www.facebook.com/mandela.nelson.18062"
                       target="_blank"
                       className=""
                     >
@@ -82,7 +82,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <a
-                      href="https://www.instagram.com/kitaajanwachuku?igsh=MWJ6bGlxMW45OHFrNQ=="
+                      href="https://www.linkedin.com/in/nel21"
                       target="_blank"
                       className=""
                     >
@@ -93,7 +93,7 @@ const Footer = () => {
                   </div>
                   <div className="">
                     <a
-                      href="https://wa.link/k5g70d"
+                      href="https://wa.link/cfop30"
                       target="_blank"
                       className=""
                     >

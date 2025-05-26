@@ -3,21 +3,18 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section className="pt-16 py-10 ">
+    <section className="pt-16 py-10 " id="home">
       <div className=" bg-[url('/hero.png')] bg-cover  text-gray-900 h-full w-full pb-5">
         <div className="container">
           <div className="flex flex-col items-center justify-center gap-2 mt-4 py-2 font-bold">
-            <h1 className="capitalize text-xl sm:text-2xl md:text-5xl py-2">
-              Your full{" "}
-              <span className="bg-gradient-to-l from-cyan-500 to-white">
-                tech
-              </span>{" "}
-              team,
+            <h1 className=" text-xl sm:text-2xl md:text-5xl pt-3 mb-3 bg-gradient-to-l from-blue-700 to-white px-3">
+              <span className="text-blue-700">Neltech</span>
+              <span className="text-blue-200">nologies</span>
             </h1>
-            <h1 className="capitalize text-xl  sm:text-2xl md:text-5xl">
-              so you can focus on{" "}
-              <span className="bg-gradient-to-l from-purple-500 to-white">
-                growth
+            <h1 className="capitalize text-base  sm:text-lg md:text-2xl">
+              your full tech
+              <span className="bg-gradient-to-l from-purple-500 to-white px-2">
+                team
               </span>
             </h1>
           </div>
@@ -31,7 +28,7 @@ const Hero = () => {
               <Button
                 children={"PITCH YOUR IDEA"}
                 buttonClass={
-                  "text-white text-base bg-gradient-to-l from-blue-900 to-blue-300 px-6 py-2 flex justify-center item-center gap-1 pt-3 mt-2 font-semibold"
+                  "text-white text-base bg-gradient-to-l from-blue-900 to-blue-300 px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1 pt-3 mt-2 font-semibold"
                 }
                 iconClass={"text-white"}
               />
@@ -48,7 +45,7 @@ const Hero = () => {
               <Button
                 children={"Request a consultation"}
                 buttonClass={
-                  "text-black text-base bg-white px-6 py-2 flex justify-center item-center gap-1 pt-3 mt-2 border-2 border-black uppercase font-semibold"
+                  "text-black text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1 pt-3 mt-2 border-2 border-black uppercase font-semibold"
                 }
                 iconClass={"text-black"}
               />

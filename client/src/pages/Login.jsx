@@ -1,15 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 import axios from "axios";
 import { FaTable } from "react-icons/fa6";
+import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
 
 const Login = () => {
+  const navigate = useNavigate();
+  const [emailError, setEmailError] = useState("");
   const [email, setEmail] = useState("");
-  const serverUrl = import.meta.env.SERVER_URL;
+  const serverUrl = import.meta.env.VITE_SERVER_URL;
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post(serverUrl + "api/login", {}, email);
-      console.log(res.data);
+      if (!email) {
+        return setEmailError("Email is required");
+      } else {
+        setEmailError("");
+        setEmail("");
+      }
+      const formData = new FormData(e.target);
+      const data = Object.fromEntries(formData);
+
+      const res = await axios.post(serverUrl + "/api/admin/login", data);
+
+      localStorage.setItem("token", res.data.token);
+      if (res.data.success) {
+        navigate("/messages");
+        toast.success(res.data.message);
+      } else {
+        toast.error(res.data.message);
+      }
     } catch (error) {
       console.log(error);
     }
@@ -23,11 +44,13 @@ const Login = () => {
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
             type="email"
+            name="email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             placeholder="Email"
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
+          {emailError && <p className="text-red-500">{emailError}</p>}
           <button
             type="submit"
             className="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition duration-300"

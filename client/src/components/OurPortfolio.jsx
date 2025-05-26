@@ -3,7 +3,7 @@ import PortfolioCard from "./PortfolioCard";
 
 const OurPortfolio = () => {
   return (
-    <section className="w-full h-full pb-10 ">
+    <section className="w-full h-full pb-10 " id="portfolio">
       <div className="container">
         <h1 className="text-lg font-semibold text-blue-900 text-center">
           Our Portfolio

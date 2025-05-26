@@ -13,9 +13,7 @@ export const postMessages = async (req, res) => {
       email,
       message,
     });
-    return res
-      .status(201)
-      .json({ success: true, newMessage, });
+    return res.status(201).json({ success: true, newMessage });
   } catch (error) {
     console.log("Error posting message", error);
   }
@@ -23,5 +21,6 @@ export const postMessages = async (req, res) => {
 
 export const getMessages = async (req, res) => {
   const allMessages = await Message.find({});
-  return res.status(200).json(allMessages);
+  console.log(allMessages);
+  return res.status(200).json({ success: true, allMessages });
 };

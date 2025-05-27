@@ -12,14 +12,14 @@ const PortfolioCard = ({ type, desc, link, src1, src2 }) => {
         </div>
       </div>
       <div className="flex-1 mt-0 md:mt-0 ">
-        <h1 className="text-xl text-blue-900 font-semibold text-start ">
+        <h1 className="text-xl text-blue-900 font-semibold text-center ">
           {type}
         </h1>
-        <p className="py-2">{desc}</p>
+        <p className="my-2 text-center">{desc}</p>
         <a
           href={link}
           target="_blank"
-          className="text-center  font-bold  py-1 mt-2  text-green-700 hover:cursor-pointer  "
+          className=" block text-center  font-bold  py-1 mt-2  text-green-700 hover:cursor-pointer  "
         >
           Live view
         </a>

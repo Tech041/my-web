@@ -8,6 +8,8 @@ import CustomerReviews from "../components/CustomerReviews";
 import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import OurVariation from "../components/OurVariation";
+import Operation from "../components/Operation";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <Hero />
       <About />
       <OurServices />
+      <OurVariation />
+      <Operation />
       <OurPortfolio />
       <Contact />
       <CustomerReviews />

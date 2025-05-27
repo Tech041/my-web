@@ -2,10 +2,12 @@ import React from "react";
 import axios from "axios";
 import { useState } from "react";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 
 const Login = () => {
   
+  const navigate = useNavigate();
 
   const [emailError, setEmailError] = useState("");
   const [email, setEmail] = useState("");
@@ -26,6 +28,7 @@ const Login = () => {
 
       if (res.data.success) {
         localStorage.setItem("token", res.data.token);
+        navigate("/messages")
         toast.success(res.data.message);
       } else {
         toast.error(res.data.message);

@@ -4,16 +4,19 @@ import Button from "./Button";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
-import { useState } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
+import { AppContext } from "../context/AppContext";
 
 const mobileStyle = "cursor-pointer text-white w-[100px]";
 const liStyles = "hover:cursor-pointer hover:text-blue-400  px-2 ";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const { token } = useContext(AppContext);
+
   return (
-    <header className=" fixed py-2 h-auto w-full border-b border-blue-400  bg-white z-40" >
+    <header className=" fixed py-2 h-auto w-full   bg-white z-40">
       <div className="container">
         <div className="flex items-center hover:cursor-pointer">
           {/* logo */}
@@ -57,9 +60,15 @@ const Navbar = () => {
                     Testimonials
                   </a>
                 </li>
-                <li className={liStyles}>
-                  <Link to="/login">Admin</Link>
-                </li>
+                {token ? (
+                  <Link to={"/messages"} className="text-red-700">
+                    Messages
+                  </Link>
+                ) : (
+                  <li className={liStyles}>
+                    <Link to="/login">Admin</Link>
+                  </li>
+                )}
               </ul>
             </div>
             <div className="flex-1 flex  items-center gap-4 justify-end ">
@@ -70,7 +79,7 @@ const Navbar = () => {
                   </a>
                 }
                 buttonClass={
-                  " bg-gradient-to-l from-blue-700 to-blue-300 transition-opacity duration-300 hover:opacity-80 text-white px-4 py-2  flex justify-center items-center gap-2 rounded-md"
+                  " bg-gradient-to-l from-blue-700 to-blue-300 transition-opacity duration-300 hover:opacity-80 text-white px-3 md:px-4 py-1 md:py-2  flex justify-center items-center gap-2 rounded-md"
                 }
                 iconClass={"text-white"}
               />
@@ -132,7 +141,13 @@ const Navbar = () => {
                 onClick={() => setIsOpen((prev) => !prev)}
                 className={mobileStyle}
               >
-                <Link to="/login">Admin</Link>
+                {token ? (
+                  <Link to={"/messages"} className="text-red-700">
+                    Messages
+                  </Link>
+                ) : (
+                  <Link to="/login">Admin</Link>
+                )}{" "}
               </li>
             </ul>
             {/* social links */}

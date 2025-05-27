@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import { Link } from "react-router-dom";
+import Assistance from "./Assistance";
 
 const Hero = () => {
   return (
@@ -7,16 +9,11 @@ const Hero = () => {
       <div className=" bg-[url('/hero.png')] bg-cover  text-gray-900 h-full w-full pb-5">
         <div className="container">
           <div className="flex flex-col items-center justify-center gap-2 mt-4 py-2 font-bold">
-            <h1 className=" text-xl sm:text-2xl md:text-5xl pt-3 mb-3 bg-gradient-to-l from-blue-700 to-white px-3">
-              <span className="text-blue-700">Neltech</span>
-              <span className="text-blue-200">nologies</span>
+            <h1 className=" text-3xl sm:text-4xl md:text-6xl pt-3 mb-3 bg-gradient-to-l from-blue-400 to-white px-3">
+              <span className="text-blue-600">Neltech</span>
+              <span className="text-black/50">nologies</span>
             </h1>
-            <h1 className="capitalize text-base  sm:text-lg md:text-2xl">
-              your full tech
-              <span className="bg-gradient-to-l from-purple-500 to-white px-2">
-                Team
-              </span>
-            </h1>
+           
           </div>
           <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mt-4 pt-5">
             {/* left */}
@@ -25,13 +22,7 @@ const Hero = () => {
               <p className="text-base py-2">
                 We build your MVP and scale your vision.
               </p>
-              <Button
-                children={"PITCH YOUR IDEA"}
-                buttonClass={
-                  "text-white text-base bg-gradient-to-l from-blue-900 to-blue-300 px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1 pt-3 mt-2 font-semibold"
-                }
-                iconClass={"text-white"}
-              />
+              <Assistance />
             </div>
 
             {/* right */}
@@ -45,7 +36,7 @@ const Hero = () => {
               <Button
                 children={"Request a consultation"}
                 buttonClass={
-                  "text-black text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1 pt-3 mt-2 border-2 border-black uppercase font-semibold"
+                  "text-black text-sm md:text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1  mt-2 border-2 border-black uppercase font-semibold"
                 }
                 iconClass={"text-black"}
               />
@@ -70,7 +61,7 @@ const Hero = () => {
                 We don&apos;t just build
               </h3>
               <p className="text-base text-gray-400">
-                We  build, and we are partners for building  and maintaining your
+                We build, and we are partners for building and maintaining your
                 entire tech solutions.
               </p>
             </div>

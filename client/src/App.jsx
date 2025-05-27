@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Messages from "./pages/Messages";
 import { ToastContainer } from "react-toastify";
+import Gemini from "./pages/Gemini";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/messages" element={<Messages />} />
+        <Route path="/ideas" element={<Gemini />} />
       </Routes>
     </div>
   );

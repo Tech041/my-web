@@ -3,9 +3,9 @@ import PortfolioCard from "./PortfolioCard";
 
 const OurPortfolio = () => {
   return (
-    <section className="w-full h-full pb-10 " id="portfolio">
+    <section className="w-full h-full mt-5 pb-10 " id="portfolio">
       <div className="container">
-        <h1 className="text-lg font-semibold text-blue-900 text-center">
+        <h1 className="text-2xl font-bold text-blue-900 text-center">
           Our Portfolio
         </h1>
         <div className="flex justify-center items-center gap-3 ">

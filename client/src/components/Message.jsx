@@ -1,8 +1,10 @@
 import React from "react";
 
+
 const Message = ({ messages }) => {
   return (
     <div className="py-5">
+      
       <p className="  ">
         <span className="px-4">Name:</span>
         <span className="">{messages.name}</span>

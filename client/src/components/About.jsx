@@ -14,7 +14,7 @@ const About = () => {
                 <h1 className=" text-lg md:text-xl font-bold text-center md:hidden text-blue-800 ">
                   About Us
                 </h1>
-                <span className="w-[100px]  h-[100px]">
+                <span className="w-[100px]  h-[100px] bg-gradient-to-tr from-purple-500 to-cyan-400 p-1 rounded-full">
                   <img
                     src="/profile pic.jpg"
                     alt="ceo_image"

@@ -42,7 +42,7 @@ const OurVariation = () => {
               icon={<GrDropbox color="white" />}
               title={"enterprise-Grade tech"}
               text={
-                "we bring silicon value-level development to companies of all sizes."
+                "We bring silicon-valley level development to companies of all sizes."
               }
             />
           </div>{" "}

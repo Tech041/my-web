@@ -40,7 +40,7 @@ const OurPortfolio = () => {
             <PortfolioCard
               src1={"/lms_desktop.png"}
               src2={"/lms_mobile.png"}
-              type={"LMS "}
+              type={"Learning management system "}
               link={"https://neldemy-lms.vercel.app/"}
             />
 

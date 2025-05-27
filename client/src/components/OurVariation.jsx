@@ -29,7 +29,7 @@ const OurVariation = () => {
             <VariationCard
               icon={<IoPeople size={30} color="white" />}
               title={"Tech Team"}
-              text={"We don't just, we build and manage everything for you."}
+              text={"We don't just innovate, we build and manage everything for you."}
             />
             <VariationCard
               icon={<FaBoxOpen color="white" />}

@@ -40,7 +40,7 @@ const Operation = () => {
                 spanClass={`${
                   isSelected === "01" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
-                title={"Pitch your idea/consultation "}
+                title={"Generate your ideas/consultation "}
                 text={"Tell us your vision or tech needs."}
               />
               <IdeaCard

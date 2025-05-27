@@ -1,10 +1,10 @@
 import Main from "../gemini/main/Main";
 // import Sidebar from "../gemini/sidebar/Sidebar";
-import "./Intelligence.css";
+import "./Chatbot.css";
 
 
 
-const Intelligence = () => {
+const Chatbot = () => {
   return (
     <section className="main-div flex">
       {/* <Sidebar /> */}
@@ -13,4 +13,4 @@ const Intelligence = () => {
   );
 };
 
-export default Intelligence;
+export default Chatbot;

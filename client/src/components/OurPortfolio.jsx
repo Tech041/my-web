@@ -17,7 +17,7 @@ const OurPortfolio = () => {
               src2={"/vicel_mobile.png"}
               type={"Ecommerce web application"}
               desc={
-                " FeatureS cart,order history, and admin panel, user authentication and authorization , image upload and product management."
+                " Features cart,order history, and admin panel, user authentication and authorization , image upload and product management."
               }
               link={"https://vicel-pharmacy.onrender.com/"}
             />

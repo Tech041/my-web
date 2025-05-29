@@ -9,6 +9,7 @@ services:
     startCommand: serve -s build
     publishPath: build
     plan: free
-    headers:
-      - name: "/*"
-        value: "index.html"
+    routes:
+      - source: "/*"
+        destination: "/index.html"
+        status: 200

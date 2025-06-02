@@ -14,9 +14,9 @@ const OurServices = () => {
     <section className="h-full w-full" id="services">
       <div className="container">
         <div className="bg-[url('/hero.png')] bg-cover pb-5 mb-10">
-          <h1 className="capitalize text-xl font-semibold">Our Services</h1>
+          <h1 className="capitalize text-xl font-semibold">My Services</h1>
           <p className="">
-            We support startups and companies by providing world-class tech
+            I support startups and companies by providing world-class tech
             solutions.
           </p>
         </div>
@@ -27,7 +27,7 @@ const OurServices = () => {
               icon1={<BsBuildings size={20} color="blue" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Enterprise software solutions"}
-              text2={"From idea to launch, we build everything you need.  "}
+              text2={"From idea to launch, I build everything you need.  "}
               className={
                 "border-t border-r border-b border-gray-500 px-16 py-4 w-full"
               }
@@ -36,7 +36,7 @@ const OurServices = () => {
               icon1={<FaMobileScreen size={30} color="purple" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Mobile app development"}
-              text2={"ios, android and cross-platform apps build for scale.  "}
+              text2={"Mobile-first apps, Real-time apps and Complex dashbaords  build for scale.  "}
               className={
                 "border-t border-l border-b border-gray-500 px-16 py-4 w-full"
               }
@@ -61,7 +61,7 @@ const OurServices = () => {
               icon1={<IoIosCloudOutline size={30} color="gray" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Cloud deployment and DevOps"}
-              text2={" We deliver scalable cloud architecture. "}
+              text2={" I deliver scalable cloud architecture. "}
               className={
                 "border-t border-l border-b border-gray-500 px-16 py-4 w-full"
               }
@@ -69,7 +69,7 @@ const OurServices = () => {
             <ServiceCard
               icon1={<SiDigitalocean size={20} color="blue" />}
               icon2={<IoArrowForward size={20} />}
-              text1={"Fullscale digital marketing"}
+              text1={"Full scale digital marketing"}
               text2={"SEO,paid adds and brand growth strategies.  "}
               className={
                 "border-t border-r border-b border-gray-500 px-16 py-4 w-full"
@@ -79,7 +79,7 @@ const OurServices = () => {
               icon1={<SiStartrek size={30} color="red" />}
               icon2={<IoArrowForward size={20} />}
               text1={"Startup MVP development"}
-              text2={"From idea to launch, we build everything you need.  "}
+              text2={"From idea to launch, I build everything you need.  "}
               className={
                 "border-t border-l border-b border-gray-500 px-16 py-4 w-full"
               }

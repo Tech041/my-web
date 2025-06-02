@@ -74,7 +74,7 @@ const Navbar = () => {
             <div className="flex-1 flex  items-center gap-4 justify-end ">
               <Button
                 children={
-                  <a href="#contact" className="">
+                  <a href="#contact" className="italic">
                     CONTACT
                   </a>
                 }

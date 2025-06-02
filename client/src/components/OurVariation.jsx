@@ -11,7 +11,7 @@ const OurVariation = () => {
       <div className="container">
         <div className="">
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-200 font-semibold pt-5 text-center capitalize">
-            What makes us different
+            What makes me different
           </h1>
           <div className="flex items-center pb-4">
             <div className="w-[50%] h-[3px] rounded-lg bg-white"></div>
@@ -20,7 +20,7 @@ const OurVariation = () => {
           <div className="text-white pb-4">
             <p className="">
               {" "}
-              At Neltechnologies, we push boundaries to create cutting-edge
+              At Neltechnologies, I push boundaries to create cutting-edge
               solutions that empower you. The future starts here.
             </p>
           </div>
@@ -28,21 +28,21 @@ const OurVariation = () => {
           <div className="flex flex-col md:flex-row items-center justify-evenly gap-6 pb-5">
             <VariationCard
               icon={<IoPeople size={30} color="white" />}
-              title={"Tech Team"}
-              text={"We don't just innovate, we build and manage everything for you."}
+              title={"Tech manager"}
+              text={"I don't just innovate, I build and manage everything for you."}
             />
             <VariationCard
               icon={<FaBoxOpen color="white" />}
               title={"startup to scale"}
               text={
-                "Unlike agencies, we stay long term to help your company grow."
+                "Unlike agencies, I stay long term to help your company grow."
               }
             />
             <VariationCard
               icon={<GrDropbox color="white" />}
               title={"enterprise-Grade tech"}
               text={
-                "We bring silicon-valley level development to companies of all sizes."
+                "I bring silicon-valley level development to companies of all sizes."
               }
             />
           </div>{" "}

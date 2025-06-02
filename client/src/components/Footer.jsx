@@ -6,15 +6,12 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer
-      className="bg-[url('/footer.png')] bg-cover text-white h-full"
-      
-    >
+    <footer className="bg-[url('/footer.png')] bg-cover text-white h-full">
       <div className="container">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-14 my-10 mt-40 text-sm">
           <div className="">
             <div className="">
-              <p className="text-xl font-medium mb-5 pt-5 text-white ">
+              <p className="text-xl font-medium mb-5 pt-5 text-white italic ">
                 Neltechnologies
               </p>
               <div className="">
@@ -57,7 +54,7 @@ const Footer = () => {
               </li>
               <li className="cursor-pointer py-1">
                 <a href="#contact" className="">
-                  Contact Us
+                  Contact me
                 </a>
               </li>
             </ul>
@@ -69,36 +66,25 @@ const Footer = () => {
             <div className="">
               <div className="flex  items-center w-full ">
                 <div className="flex items-center justify-between gap-3  ">
-                  <div className="">
+                  <div className="p-2 bg-white rounded-full">
                     <a
                       href="https://www.facebook.com/mandela.nelson.18062"
                       target="_blank"
                       className=""
                     >
                       <span className="">
-                        <FaFacebookF size={20} color="white" />
+                        <FaFacebookF size={20} color="blue" />
                       </span>
                     </a>
                   </div>
-                  <div className="">
+                  <div className=" p-2 bg-white rounded-full">
                     <a
                       href="https://www.linkedin.com/in/nel21"
                       target="_blank"
                       className=""
                     >
                       <span className="">
-                        <FaLinkedinIn size={20} color="white" />
-                      </span>
-                    </a>
-                  </div>
-                  <div className="">
-                    <a
-                      href="https://wa.link/cfop30"
-                      target="_blank"
-                      className=""
-                    >
-                      <span className=" ">
-                        <FaWhatsapp size={20} color="green" />
+                        <FaLinkedinIn size={20} color="blue" />
                       </span>
                     </a>
                   </div>

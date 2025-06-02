@@ -41,7 +41,7 @@ const Contact = () => {
         <div className="flex items-center justify-center h-[450px] ">
           <div className="w-full  bg-white p-8 rounded-lg ">
             <h2 className="text-2xl font-bold text-blue-800 mb-2 text-center">
-              Contact Us
+              Contact me
             </h2>
             <form
               onSubmit={handleSubmit(handleSendMessage)}

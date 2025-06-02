@@ -10,11 +10,13 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import OurVariation from "../components/OurVariation";
 import Operation from "../components/Operation";
+import Whatsapp from "../components/Whatsapp";
 
 const Home = () => {
   return (
     <main className="w-full h-full">
       <Navbar />
+      <Whatsapp />
       <Hero />
       <About />
       <OurServices />

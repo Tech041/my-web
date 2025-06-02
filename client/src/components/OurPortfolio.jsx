@@ -55,7 +55,7 @@ const OurPortfolio = () => {
     {
       src1: "/nelpin_desk.png",
       src2: "/nelpin_mobile.png",
-      type: "Pinterest Clone",
+      type: "Visual Discovery Engine",
       desc: "This application facilitates social interaction.Features include secure user authentication and authorization, with core social media features which include like/unlike,save,comment and post functionalities.  .",
       link: "https://nelpinterest-app.vercel.app",
       stack: ["React.js", "Tailwind", "Node", "Express", "ImageKit", "MongoDB"],
@@ -99,7 +99,7 @@ const OurPortfolio = () => {
     <section className="w-full h-full mt-5 pb-10 " id="portfolio">
       <div className="container">
         <h1 className="text-2xl font-bold text-blue-900 text-center">
-          Our Portfolio
+          My Portfolio
         </h1>
         <div className="flex justify-center items-center gap-3 ">
           {/* Portfolio */}

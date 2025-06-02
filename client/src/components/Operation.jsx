@@ -11,7 +11,7 @@ const Operation = () => {
           <div className="flex  flex-col md:flex-row justify-between items-center">
             <div className="">
               <h1 className=" text-2xl md:text-4xl  font-semibold text-black capitalize ">
-                How it works
+                How I Operate
               </h1>
               <div className="h-[3px] w-16 pt-1 bg-blue-600 rounded-lg"></div>
             </div>
@@ -41,7 +41,7 @@ const Operation = () => {
                   isSelected === "01" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
                 title={"Generate your ideas/consultation "}
-                text={"Tell us your vision or tech needs."}
+                text={"Tell me your vision or tech needs."}
               />
               <IdeaCard
                 onClick={() => setIsSelected("02")}
@@ -54,8 +54,8 @@ const Operation = () => {
                 spanClass={`${
                   isSelected === "02" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
-                title={"We plan and strategize "}
-                text={"Our experts craft a roadmap tailored to you."}
+                title={"I plan and strategize "}
+                text={"I  craft a roadmap tailored to you."}
               />
               <IdeaCard
                 onClick={() => setIsSelected("03")}
@@ -68,8 +68,8 @@ const Operation = () => {
                 spanClass={`${
                   isSelected === "03" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
-                title={"We build and execute"}
-                text={"MVP,App,AI - whatever you need, we develop it."}
+                title={"I build,deploy and maintain"}
+                text={"MVP,mobile-first App,LLM integration - whatever you need, I develop it."}
               />
               <IdeaCard
                 onClick={() => setIsSelected("04")}
@@ -82,7 +82,7 @@ const Operation = () => {
                 spanClass={`${
                   isSelected === "04" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
-                title={"You scale,we stay"}
+                title={"You scale,I stay"}
                 text={"Long term partnership - growth beyond launch ."}
               />
             </div>

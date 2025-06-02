@@ -45,20 +45,20 @@ const About = () => {
                 merging innovation with strategic impact.
               </p>
               <h3 className="text-xl font-bold text-blue-900 py-2">
-                Our expertise includes:
+                 Expertise includes:
               </h3>
               <div className="flex flex-col justify-center gap-1">
                 <span className="">
                   <span className={spanStyle}>
-                    AI-Integrated eCommerce and learning management system
-                    Platforms{" "}
+                    AI-Integrated eCommerce applications,real estate applications,social media applications  and learning management system
+                    platforms{" "}
                   </span>
-                  – Helping  businesses and learning to thrive with intelligent, automated
+                  – Helping  businesses, social interactions and learning to thrive with intelligent, automated
                   solutions.
                 </span>
                 <span className="">
                   <span className={spanStyle}>
-                    Landing Pages, dashboards and Brand Websites and web
+                    Landing Pages, dashboards,brand websites and web
                     applications
                   </span>{" "}
                   – Designed for maximum engagement and conversions.
@@ -69,7 +69,7 @@ const About = () => {
                 </span>
                 <span className="">
                   <span className={spanStyle}>
-                    Custom Solutions for Non-Pharmaceutical Businesses{" "}
+                    Custom solutions for all businesses models{" "}
                   </span>
                   – Tailored digital strategies powered by AI-driven automation.
                 </span>

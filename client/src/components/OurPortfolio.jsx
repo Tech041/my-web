@@ -22,7 +22,7 @@ const OurPortfolio = () => {
       src1: "/vicel_desk.png",
       src2: "/vicel_mobile.png",
       type: "Ecommerce web application",
-      desc: "This application automates pharmaceutical product sales, including cart, order history, user profile, payment gateway, and admin panel for image upload and product management.",
+      desc: "This application automates pharmaceutical product sales, features include cart and other functionalities, user profile, payment gateway, and admin panel for image upload and product management.",
       link: "https://vicel-pharmacy.onrender.com/",
       stack: [
         "React.js",
@@ -51,6 +51,14 @@ const OurPortfolio = () => {
         "MongoDB",
         "Cloudinary",
       ],
+    },
+    {
+      src1: "/nelpin_desk.png",
+      src2: "/nelpin_mobile.png",
+      type: "Pinterest Clone",
+      desc: "This application facilitates social interaction.Features include secure user authentication and authorization, with core social media features which include like/unlike,save,comment and post functionalities.  .",
+      link: "https://nelpinterest-app.vercel.app",
+      stack: ["React.js", "Tailwind", "Node", "Express", "ImageKit", "MongoDB"],
     },
     {
       src1: "/mern_desk.png",

@@ -75,6 +75,21 @@ const OurPortfolio = () => {
         "MongoDB",
       ],
     },
+      {
+      src1: "/coldesk.png",
+      src2: "/colmob.png",
+      type: "Nutraceutical online Store",
+      desc: "This is  health supplement online store, features include admin login, and admin panel for image upload and product management.",
+      link: "https://cols-nutraceutical.onrender.com/",
+      stack: [
+        "React.js",
+        "Tailwind",
+        "Node",
+        "Express",
+        "MongoDB",
+        "Cloudinary",
+      ],
+    },
 
     {
       src1: "/lms_desktop.png",

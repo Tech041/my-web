@@ -6,7 +6,7 @@ const Operation = () => {
   const [isSelected, setIsSelected] = useState("02");
   return (
     <section>
-      <div className="bg-[url('/hero.png')] bg-cover  py-5">
+      <div className="bg-[url('/hero.webp')] bg-cover  py-5">
         <div className="container">
           <div className="flex  flex-col md:flex-row justify-between items-center">
             <div className="">

@@ -6,7 +6,7 @@ import { FaFacebookF } from "react-icons/fa6";
 import { FaPhone } from "react-icons/fa";
 const Footer = () => {
   return (
-    <footer className="bg-[url('/footer.png')] bg-cover text-white h-full">
+    <footer className="bg-[url('/footer.webp')] bg-cover text-white h-full">
       <div className="container">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center  gap-14 my-10 mt-40 text-sm">
           <div className="">
@@ -17,7 +17,7 @@ const Footer = () => {
               <div className="">
                 <a href="#home" className="">
                   <img
-                    src="/logo.png"
+                    src="/logo.webp"
                     alt=""
                     width={50}
                     height={50}

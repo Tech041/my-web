@@ -24,7 +24,7 @@ const Navbar = () => {
             <a href="#home" className="flex  items-center justify-center gap-2">
               <span className=" p-[2px] bg-gradient-to-l from-blue-400 to-cyan-500 rounded-full">
                 <img
-                  src="/logo.png"
+                  src="/logo.webp"
                   alt=""
                   className="w-[50px] h-[50px] rounded-full"
                 />

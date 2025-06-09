@@ -4,8 +4,8 @@ import PortfolioCard from "./PortfolioCard";
 const OurPortfolio = () => {
   const portfolioItems = [
     {
-      src1: "/realdesk.png",
-      src2: "/realmobile.png",
+      src1: "/realdesk.webp",
+      src2: "/realmobile.webp",
       type: "Real Estate web application",
       desc: "This is a real estate web application that connects property owners to buyers through a multi-agent system. Features include an admin panel, user authentication and authorization, property listing and editing.",
       link: "https://luxlife.onrender.com",
@@ -19,8 +19,8 @@ const OurPortfolio = () => {
       ],
     },
     {
-      src1: "/vicel_desk.png",
-      src2: "/vicel_mobile.png",
+      src1: "/vicel_desk.webp",
+      src2: "/vicel_mobile.webp",
       type: "Ecommerce web application",
       desc: "This application automates pharmaceutical product sales, features include cart and other functionalities, user profile, payment gateway, and admin panel for image upload and product management.",
       link: "https://vicel-pharmacy.onrender.com/",
@@ -35,8 +35,8 @@ const OurPortfolio = () => {
       ],
     },
     {
-      src1: "/pingme_desk.png",
-      src2: "/pingme_mobile.png",
+      src1: "/pingme_desk.webp",
+      src2: "/pingme_mobile.webp",
       type: "Live chat app",
       desc: "Real-time chat application for secure communication, featuring online indicator, secure authentication, and efficient backend for scalability.",
       link: "https://pingme-chat-app.vercel.app/",
@@ -53,16 +53,16 @@ const OurPortfolio = () => {
       ],
     },
     {
-      src1: "/nelpin_desk.png",
-      src2: "/nelpin_mobile.png",
+      src1: "/nelpin_desk.webp",
+      src2: "/nelpin_mobile.webp",
       type: "Visual Discovery Engine",
       desc: "This application facilitates social interaction.Features include secure user authentication and authorization, with core social media features which include like/unlike,save,comment and post functionalities.  .",
       link: "https://nelpinterest-app.vercel.app",
       stack: ["React.js", "Tailwind", "Node", "Express", "ImageKit", "MongoDB"],
     },
     {
-      src1: "/mern_desk.png",
-      src2: "/mern_mobile.png",
+      src1: "/mern_desk.webp",
+      src2: "/mern_mobile.webp",
       type: "Secure Authentication Sytem",
       desc: "Secure authentication system featuring login,logout, OTP-based email verification and password reset using google SMTP. Highly scalable with robust backend",
       link: "https://mernauth-frontend.vercel.app/",
@@ -76,8 +76,8 @@ const OurPortfolio = () => {
       ],
     },
       {
-      src1: "/coldesk.png",
-      src2: "/colmob.png",
+      src1: "/coldesk.webp",
+      src2: "/colmob.webp",
       type: "Nutraceutical online Store",
       desc: "This is  health supplement online store, features include admin login, and admin panel for image upload and product management.",
       link: "https://cols-nutraceutical.onrender.com/",
@@ -92,8 +92,8 @@ const OurPortfolio = () => {
     },
 
     {
-      src1: "/lms_desktop.png",
-      src2: "/lms_mobile.png",
+      src1: "/lms_desktop.webp",
+      src2: "/lms_mobile.webp",
       type: "Learning Management System",
       desc: "Intuitive learning UI design with AI powered chatbot,modern frontend architecture for scalability. This is a well structured platform for learning and skill acquisition through tutorials and automated AI chatbot",
       link: "https://neldemy-lms.vercel.app/",
@@ -101,8 +101,8 @@ const OurPortfolio = () => {
     },
 
     {
-      src1: "/kedi_desk.png",
-      src2: "/kedi_mobile.png",
+      src1: "/kedi_desk.webp",
+      src2: "/kedi_mobile.webp",
       type: "Landing page website",
       desc: "High-converting responsive landing page, performance-optimized and SEO-friendly.",
       link: "https://kedi-pharma.vercel.app/",

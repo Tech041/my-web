@@ -7,7 +7,7 @@ import { GrDropbox } from "react-icons/gr";
 
 const OurVariation = () => {
   return (
-    <section className="bg-[url('/footer.png')] bg-cover h-full w-full">
+    <section className="bg-[url('/footer.webp')] bg-cover h-full w-full">
       <div className="container">
         <div className="">
           <h1 className="text-lg sm:text-xl md:text-2xl lg:text-3xl text-gray-200 font-semibold pt-5 text-center capitalize">
@@ -49,7 +49,7 @@ const OurVariation = () => {
         </div>
       </div>
       <div className="w-full h-[400px] mt-10 pt-5 relative ">
-        <div className="w-full h-full bg-[url('/team.png')]  bg-cover">
+        <div className="w-full h-full bg-[url('/team.webp')]  bg-cover">
           {/* <img src="/team.png" alt="" className="w-full h-full " /> */}
         </div>
       </div>

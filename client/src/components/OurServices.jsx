@@ -13,7 +13,7 @@ const OurServices = () => {
   return (
     <section className="h-full w-full" id="services">
       <div className="container">
-        <div className="bg-[url('/hero.png')] bg-cover pb-5 mb-10">
+        <div className="bg-[url('/hero.webp')] bg-cover pb-5 mb-10">
           <h1 className="capitalize text-xl font-semibold">My Services</h1>
           <p className="">
             I support startups and companies by providing world-class tech

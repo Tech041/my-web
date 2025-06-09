@@ -6,7 +6,7 @@ import Assistance from "./Assistance";
 const Hero = () => {
   return (
     <section className="pt-16 py-10 " id="home">
-      <div className=" bg-[url('/hero.png')] bg-cover  text-gray-900 h-full w-full pb-5">
+      <div className=" bg-[url('/hero.webp')] bg-cover  text-gray-900 h-full w-full pb-5">
         <div className="container">
           <div className="flex flex-col items-center justify-center gap-2 mt-4 py-2 font-bold">
             <h1 className=" text-3xl sm:text-4xl md:text-6xl pt-3 mb-3 bg-gradient-to-l from-blue-400 to-white px-3 italic">
@@ -45,14 +45,14 @@ const Hero = () => {
           {/* team picture */}
 
           <div className="w-full h-[400px] mt-10 pt-5 relative ">
-            <div className="w-full h-full bg-[url('/team2.png')]  bg-cover">
+            <div className="w-full h-full bg-[url('/team2.webp')]  bg-cover">
               {/* <img src="/team.png" alt="" className="w-full h-full " /> */}
             </div>
           </div>
         </div>
       </div>
       {/* what we do */}
-      <div className="w-full h-full bg-[url('/footer.png')]  bg-cover flex justify-between items-center gap-4 py-5 ">
+      <div className="w-full h-full bg-[url('/footer.webp')]  bg-cover flex justify-between items-center gap-4 py-5 ">
         <div className="container">
           <div className="h-[20px] w-full hidden md:block"></div>
           <div className="flex flex-col md:flex-row  justify-between items-center gap-4">

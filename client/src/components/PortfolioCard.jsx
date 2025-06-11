@@ -15,7 +15,7 @@ const PortfolioCard = ({ type, desc, link, src1, src2, stack }) => {
         <h1 className="text-xl text-blue-900 font-semibold text-center ">
           {type}
         </h1>
-        <p className="my-2 text-center">{desc}</p>
+        <p className="my-2 ">{desc}</p>
         <div className="flex flex-col items-center">
           <h3 className="text-orange-800 text-sm text-center">Stack</h3>
           <div className="grid grid-cols-2">

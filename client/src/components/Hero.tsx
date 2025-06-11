@@ -10,10 +10,9 @@ const Hero = () => {
         <div className="container">
           <div className="flex flex-col items-center justify-center gap-2 mt-4 py-2 font-bold">
             <h1 className=" text-3xl sm:text-4xl md:text-6xl pt-3 mb-3 bg-gradient-to-l from-blue-400 to-white px-3 italic">
-              <span className="text-blue-600">Neltech</span>
-              <span className="text-black/50">nologies</span>
+              <span className="text-blue-600">Full Stack</span>
+              <span className="text-black/50 pl-1">Developer</span>
             </h1>
-           
           </div>
           <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4 mt-4 pt-5">
             {/* left */}
@@ -31,10 +30,11 @@ const Hero = () => {
                 Businesses
               </h2>
               <p className="text-base py-2">
-                Cutting edge AI and software solutions tailored to you.
+                I build fast, scalable web apps for all businesses.
               </p>
               <Button
-                children={"Request a consultation"}
+                href={"#portfolio"}
+                children={"View My Works"}
                 buttonClass={
                   "text-black text-sm md:text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1  mt-2 border-2 border-black uppercase font-semibold"
                 }

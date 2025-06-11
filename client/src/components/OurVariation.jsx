@@ -20,7 +20,7 @@ const OurVariation = () => {
           <div className="text-white pb-4">
             <p className="">
               {" "}
-              At Neltechnologies, I push boundaries to create cutting-edge
+              At Neltech, I push boundaries to create cutting-edge
               solutions that empower you. The future starts here.
             </p>
           </div>

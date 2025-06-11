@@ -35,8 +35,10 @@ const OurServices = () => {
             <ServiceCard
               icon1={<FaMobileScreen size={30} color="purple" />}
               icon2={<IoArrowForward size={20} />}
-              text1={"Mobile app development"}
-              text2={"Mobile-first apps, Real-time apps and Complex dashbaords  build for scale.  "}
+              text1={"Mobile-first apps "}
+              text2={
+                "I follow a mobile-first approach to deliver highly responsive applications that perform seamlessly across all devices. "
+              }
               className={
                 "border-t border-l border-b border-gray-500 px-16 py-4 w-full"
               }
@@ -89,6 +91,7 @@ const OurServices = () => {
         <div className="flex flex-col md:flex-row  items-center gap-6 pb-5">
           <Assistance />
           <Button
+            href={"#contact"}
             children={"Request a consultation"}
             buttonClass={
               "text-black  text-sm md:text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1  mt-2 border-2 border-black uppercase font-semibold"

@@ -61,7 +61,7 @@ const Main = () => {
         {!showResult ? (
           <>
             <div className="greet my-[50px] p-5 ">
-              <p className="py-1 text-center">Welcome to Neltechnologies AI Assistance!</p>
+              <p className="py-1 text-center">Welcome to Neltech AI Assistance!</p>
               <p className=" text-center">Let us help you generate some ideas.</p>
             </div>
             <div className="cards flex flex-col md:flex-row justify-center items-center gap-4">

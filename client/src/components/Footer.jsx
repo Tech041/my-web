@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="">
             <div className="">
               <p className="text-xl font-medium mb-5 pt-5 text-white italic ">
-                Neltechnologies
+                Neltech
               </p>
               <div className="">
                 <a href="#home" className="">
@@ -105,7 +105,7 @@ const Footer = () => {
         <div className="">
           <hr className="" />
           <p className="py-5 text-xs text-center text-white  ">
-            Copyright &copy;Neltechnologies {new Date().getFullYear()} <br />
+            Copyright &copy;Neltech {new Date().getFullYear()} <br />
             <span className="">All rights reserved.</span>
           </p>
         </div>

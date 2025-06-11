@@ -1,4 +1,4 @@
-const spanStyle = "font-semibold text-cyan-700 italic";
+const spanStyle = "font-semibold text-cyan-700 italic pr-2";
 
 const About = () => {
   return (
@@ -34,54 +34,59 @@ const About = () => {
               </h1>
 
               <p className="">
-                <span className="font-bold text-cyan-900 italic">
-                  {" "}
-                  Neltechnologies
-                </span>{" "}
-                was founded by a visionary pharmacist who transitioned into
-                software engineering, driven by a passion for solving real-world
-                challenges through technology. As a proactive and result-driven Full
-                stack developer <span className="bg-gradient-to-tr from-blue-400 to-white px-2 text-gray-700 text-sm italic font-semibold">[MERN]</span>, I develop
-                cutting-edge software solutions that empower businesses across
-                industries, seamlessly merging innovation with strategic impact.
+                I'm a Pharmacist turned full-stack developer with a passion for
+                building scalable and user-centric web applications using the
+                MERN stack (MongoDB, Express.js, React, Node.js). With a
+                proactive mindset and a result-driven approach, I create modern
+                software solutions that help businesses streamline operations,
+                engage users, and grow efficiently. I blend technical expertise
+                with problem-solving skills to deliver impactful digital
+                products across industries.
               </p>
               <h3 className="text-xl font-bold text-blue-900 py-2">
-                My Expertise includes:
+                What do I do at Neltech?
               </h3>
-              <div className="flex flex-col justify-center gap-1">
+              <p className="py-1">
+                At Neltech, I don’t just build websites—I innovate. My
+                expertise spans across:
+              </p>
+              <div className="flex flex-col justify-center gap-1 py-2">
                 <span className="">
                   <span className={spanStyle}>
-                    AI-Integrated eCommerce applications,real estate
-                    applications,social media applications and learning
-                    management system platforms{" "}
+                    AI-Integrated Applications:{" "}
                   </span>
-                  – Helping businesses, social interactions and learning to
-                  thrive with intelligent, automated solutions.
+                  – From eCommerce platforms and real estate portals to social
+                  media apps and learning management systems, I build
+                  intelligent, automated solutions that help businesses,
+                  education, and online communities thrive.
                 </span>
                 <span className="">
                   <span className={spanStyle}>
-                    Landing Pages, dashboards,brand websites and web
-                    applications
+                    High-Converting Web Experiences:
                   </span>{" "}
-                  – Designed for maximum engagement and conversions.
+                  I design and develop engaging landing pages, dashboards, brand
+                  websites, and full-scale web applications—all optimized for
+                  performance, user experience, and conversions.
                 </span>
                 <span className="">
                   <span className={spanStyle}></span> Seamlessly connecting
-                  buyers and sellers through smart, intuitive interfaces
+                  buyers and sellers through smart, intuitive interfaces.
                 </span>
                 <span className="">
                   <span className={spanStyle}>
-                    Custom solutions for all business models{" "}
+                    Smart Interfaces That Connect:
                   </span>
-                  – Tailored digital strategies powered by AI-driven automation.
+                  Whether it’s a marketplace or a custom platform, I create
+                  intuitive, seamless interfaces that connect buyers and sellers
+                  with ease.
                 </span>
                 <p className="pb-5">
-                  At Neltechnologies, I don&apos;t just build websites—I
-                  innovate. By integrating artificial intelligence into your
-                  platforms, I ensure businesses stay ahead of the latest
-                  technological advancements globally, optimizing efficiency and
-                  user experience. Welcome to Neltechnologies—where technology
-                  meets intelligence, and ideas become reality!
+                  At Neltech, staying ahead means embracing the latest in AI and
+                  web technologies. I combine innovation with strategic thinking
+                  to ensure every solution is future-ready, efficient, and built
+                  to deliver measurable results. Welcome to
+                  Neltech—where technology meets intelligence, and ideas
+                  become reality!
                 </p>
               </div>
             </div>

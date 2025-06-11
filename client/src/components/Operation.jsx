@@ -16,7 +16,8 @@ const Operation = () => {
               <div className="h-[3px] w-16 pt-1 bg-blue-600 rounded-lg"></div>
             </div>
             <Button
-              children={"Request a consultation"}
+              href={"#portfolio"}
+              children={"view my works"}
               buttonClass={
                 "text-black text-sm md:text-base bg-white px-4 md:px-6 py-1 md:py-2 flex justify-center item-center gap-1  mt-2 border-2 border-black uppercase font-semibold"
               }
@@ -40,7 +41,7 @@ const Operation = () => {
                 spanClass={`${
                   isSelected === "01" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
-                title={"Generate your ideas/consultation "}
+                title={"Generate your ideas/consult "}
                 text={"Tell me your vision or tech needs."}
               />
               <IdeaCard
@@ -69,7 +70,9 @@ const Operation = () => {
                   isSelected === "03" ? "bg-white" : "bg-gray-200"
                 } p-2 md:p-4  rounded-full italic`}
                 title={"I build,deploy and maintain"}
-                text={"MVP,mobile-first App,LLM integration - whatever you need, I develop it."}
+                text={
+                  "MVP,mobile-first App,LLM integration - whatever you need, I develop it."
+                }
               />
               <IdeaCard
                 onClick={() => setIsSelected("04")}

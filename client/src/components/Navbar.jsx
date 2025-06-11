@@ -31,7 +31,7 @@ const Navbar = () => {
               </span>
 
               <span className="text-sm text-cyan-700 font-bold hidden lg:block ">
-                Neltechnologies
+                Neltech
               </span>
             </a>
           </div>

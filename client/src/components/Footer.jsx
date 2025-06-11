@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="">
-            <p className="text-xl font-medium mb-5 pt-5 text-orange-600 ">
+            <p className="text-xl font-medium mb-5 pt-5 text-white ">
               Quick Link
             </p>
             <ul className="flex flex-col gap-1">
@@ -60,7 +60,7 @@ const Footer = () => {
             </ul>
           </div>
           <div className="">
-            <p className="text-xl font-medium mb-5 text-orange-600 ">
+            <p className="text-xl font-medium mb-5 text-white ">
               Contact Us
             </p>
             <div className="">
@@ -90,7 +90,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <div className="pt-3">
+              <div className="py-5">
                 <a
                   href="tel:+2348030507512"
                   className="flex items-center gap-3"
@@ -104,8 +104,8 @@ const Footer = () => {
         </div>
         <div className="">
           <hr className="" />
-          <p className="py-5 text-xs text-center text-orange-500  ">
-            Copyright &copy;Neltechnologies{new Date().getFullYear()} <br />
+          <p className="py-5 text-xs text-center text-white  ">
+            Copyright &copy;Neltechnologies {new Date().getFullYear()} <br />
             <span className="">All rights reserved.</span>
           </p>
         </div>

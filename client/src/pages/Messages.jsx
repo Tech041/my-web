@@ -10,7 +10,7 @@ import { AppContext } from "../context/AppContext";
 
 const Messages = () => {
   const [newMessages, setNewMessages] = useState([]);
-  const { token, setToken } = useContext(AppContext);
+  const { token } = useContext(AppContext);
 
   const navigate = useNavigate();
 
@@ -21,12 +21,11 @@ const Messages = () => {
     if (res.data.success) {
       console.log(res.data.allMessages);
       setNewMessages(res.data.allMessages);
-      setToken(localStorage.getItem("token"));
-      if (!token) {
-        navigate("/");
-      }
     }
   };
+  useEffect(() => {
+    !token && navigate("/");
+  }, []);
 
   useEffect(() => {
     fetchAllMessages();

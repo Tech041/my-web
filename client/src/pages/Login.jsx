@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import axios from "axios";
 import { useState } from "react";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-
+import { AppContext } from "../context/AppContext";
 
 const Login = () => {
-  
   const navigate = useNavigate();
+  const { setToken } = useContext(AppContext);
 
   const [emailError, setEmailError] = useState("");
   const [email, setEmail] = useState("");
@@ -27,8 +27,9 @@ const Login = () => {
       const res = await axios.post(serverUrl + "/api/admin/login", data);
 
       if (res.data.success) {
-        localStorage.setItem("token", res.data.token);
-        navigate("/messages")
+        sessionStorage.setItem("token", res.data.token);
+        setToken(res.data.token);
+        navigate("/messages");
         toast.success(res.data.message);
       } else {
         toast.error(res.data.message);

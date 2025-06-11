@@ -21,6 +21,6 @@ export const postMessages = async (req, res) => {
 
 export const getMessages = async (req, res) => {
   const allMessages = await Message.find({});
-  console.log(allMessages);
+
   return res.status(200).json({ success: true, allMessages });
 };

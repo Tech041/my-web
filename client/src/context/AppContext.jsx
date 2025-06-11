@@ -4,7 +4,7 @@ import run from "../config/Gemini";
 
 export const AppContext = createContext();
 export const AppContextProvider = ({ children }) => {
-  const [token, setToken] = useState("");
+  const [token, setToken] = useState(sessionStorage.getItem("token"));
 
   // For Gemini
 
@@ -14,8 +14,6 @@ export const AppContextProvider = ({ children }) => {
   const [showResult, setShowResult] = useState(false);
   const [loading, setLoading] = useState(false);
   const [resultData, setResultData] = useState("");
-
-
 
   // for gemini
 

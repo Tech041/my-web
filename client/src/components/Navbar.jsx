@@ -73,13 +73,10 @@ const Navbar = () => {
             </div>
             <div className="flex-1 flex  items-center gap-4 justify-end ">
               <Button
-                children={
-                  <a href="#contact" className="italic">
-                    CONTACT
-                  </a>
-                }
+                href={"#contact"}
+                children={"CONTACT"}
                 buttonClass={
-                  " bg-gradient-to-l from-blue-700 to-blue-300 transition-opacity duration-300 hover:opacity-80 text-white px-3 md:px-4 py-1 md:py-2  flex justify-center items-center gap-2 rounded-md"
+                  " italic bg-gradient-to-l from-blue-700 to-blue-300 transition-opacity duration-300 hover:opacity-80 text-white px-3 md:px-4 py-1 md:py-2  flex justify-center items-center gap-2 rounded-md"
                 }
                 iconClass={"text-white"}
               />

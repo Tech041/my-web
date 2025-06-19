@@ -91,14 +91,14 @@ const OurPortfolio = () => {
       ],
     },
 
-    // {
-    //   src1: "/lms_desktop.webp",
-    //   src2: "/lms_mobile.webp",
-    //   type: "Learning Management System",
-    //   desc: "A modern, intuitive learning interface designed to support skill development through interactive tutorials and intelligent automation. Key features include: AI-Powered Chatbot – offers real-time guidance, answering learner queries and personalizing content delivery. User authentication and authorization. Scalable Frontend Architecture – built with modern frameworks for performance and flexibility. Structured Learning Experience – organized modules and tutorials tailored for progressive skill acquisition. This platform blends clean UI design with smart automation to create a highly effective digital learning environment.",
-    //   link: "https://neldemy-lms.vercel.app/",
-    //   stack: ["React.js", "Tailwind", " Gemini", "Node", "Express", "MongoDB"],
-    // },
+    {
+      src1: "/lms_desktop.webp",
+      src2: "/lms_mobile.webp",
+      type: "Learning Management System",
+      desc: "A modern, intuitive learning interface designed to support skill development through interactive tutorials and intelligent automation. Key features include: AI-Powered Chatbot – offers real-time guidance, answering learner queries and personalizing content delivery. User authentication and authorization. Scalable Frontend Architecture – built with modern frameworks for performance and flexibility. Structured Learning Experience – organized modules and tutorials tailored for progressive skill acquisition. This platform blends clean UI design with smart automation to create a highly effective digital learning environment.",
+      link: "https://neldemy-lms.vercel.app/",
+      stack: ["React.js", "Tailwind", " Gemini", "Node", "Express", "MongoDB"],
+    },
 
     {
       src1: "/kedi_desk.webp",

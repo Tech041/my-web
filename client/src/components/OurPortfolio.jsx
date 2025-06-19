@@ -100,14 +100,14 @@ const OurPortfolio = () => {
     //   stack: ["React.js", "Tailwind", " Gemini", "Node", "Express", "MongoDB"],
     // },
 
-    // {
-    //   src1: "/kedi_desk.webp",
-    //   src2: "/kedi_mobile.webp",
-    //   type: "Landing page website",
-    //   desc: "A high-converting, fully responsive landing page designed for maximum engagement. Key features include: Performance Optimization – fast load times and smooth user experience. SEO-Friendly Structure – built with best practices to enhance search engine visibility. Responsive Design – adapts seamlessly across all devices and screen sizes. This landing page is crafted to drive conversions, capture attention, and support digital marketing goals effectively.",
-    //   link: "https://kedi-pharma.vercel.app/",
-    //   stack: ["React.js", "Tailwind"],
-    // },
+    {
+      src1: "/kedi_desk.webp",
+      src2: "/kedi_mobile.webp",
+      type: "Landing page website",
+      desc: "A high-converting, fully responsive landing page designed for maximum engagement. Key features include: Performance Optimization – fast load times and smooth user experience. SEO-Friendly Structure – built with best practices to enhance search engine visibility. Responsive Design – adapts seamlessly across all devices and screen sizes. This landing page is crafted to drive conversions, capture attention, and support digital marketing goals effectively.",
+      link: "https://kedi-pharma.vercel.app/",
+      stack: ["React.js", "Tailwind"],
+    },
   ];
 
   return (

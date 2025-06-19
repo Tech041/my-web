@@ -21,5 +21,5 @@ app.use("/", (req, res) => {
   res.send("API IS WORKING");
 });
 app.listen(port, () => {
-  console.log("App running on", port);
+  console.log("App running on PORT", port);
 });

@@ -4,6 +4,22 @@ import PortfolioCard from "./PortfolioCard";
 const OurPortfolio = () => {
   const portfolioItems = [
     {
+      src1: "/medhunt_desk.webp",
+      src2: "/medhunt_mob.webp",
+      type: "Healthcare Job Portal",
+      desc: "MedHunt is a dynamic full-stack job portal tailored for healthcare professionals. Built with React and Node.js, it streamlines recruitment through secure authentication, intuitive dashboards, and user-friendly job management. MedHunt enables profile creation, resume access, job postings, applications, and filtering by profession—all in one place. It supports recruiters with real-time resume downloads and powerful job tracking, while delivering a seamless experience for medical talent. Integrated with Google SMTP for verified emails and newsletters, it ensures reliable communication. With upcoming features like live chat, job alerts, and profile editing, MedHunt elevates healthcare hiring into a smarter, faster, more connected future.",
+      link: "https://medhunt-portal.vercel.app",
+      stack: [
+        "React.js",
+        "Tailwind",
+        "Node",
+        "Express",
+        "Nodemailer",
+        "Google SMTP",
+        "MongoDB",
+      ],
+    },
+    {
       src1: "/realdesk.webp",
       src2: "/realmobile.webp",
       type: "Real Estate web application",
@@ -60,21 +76,7 @@ const OurPortfolio = () => {
       link: "https://nelpinterest-app.vercel.app",
       stack: ["React.js", "Tailwind", "Node", "Express", "ImageKit", "MongoDB"],
     },
-    // {
-    //   src1: "/mern_desk.webp",
-    //   src2: "/mern_mobile.webp",
-    //   type: "Secure Authentication Sytem",
-    //   desc: "A reliable and scalable user authentication system designed for modern web applications. Key features include: Login & Logout Functionality – secure and session-managed user access. OTP-Based Email Verification – ensures account authenticity via one-time passwords. Password Reset – supports secure password recovery using Google SMTP. Scalable Backend Architecture – built for performance, reliability, and easy integration into larger systems. This solution provides a strong foundation for user security and trust in any application environment.",
-    //   link: "https://mernauth-frontend.vercel.app/",
-    //   stack: [
-    //     "React.js",
-    //     "Tailwind",
-    //     "Node",
-    //     "Express",
-    //     "Google SMTP",
-    //     "MongoDB",
-    //   ],
-    // },
+
     {
       src1: "/coldesk.webp",
       src2: "/colmob.webp",

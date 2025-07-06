@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "./Button";
-import { Link } from "react-router-dom";
 import Assistance from "./Assistance";
 import HeroCarousel from "./HeroCarousel";
 

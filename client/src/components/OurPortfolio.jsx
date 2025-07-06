@@ -120,7 +120,7 @@ const OurPortfolio = () => {
         </h1>
         <div className="flex justify-center items-center gap-3 ">
           {/* Portfolio */}
-          {/* mobile version */}
+
           <div className="">
             {portfolioItems.map((item, index) => (
               <PortfolioCard key={index} {...item} />

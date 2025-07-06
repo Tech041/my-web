@@ -1,10 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Messages from "./pages/Messages";
 import { ToastContainer } from "react-toastify";
-import Gemini from "./pages/Gemini";
+
+// Dymanic imports
+const Home = React.lazy(() => import("./pages/Home"));
+const Login = React.lazy(() => import("./pages/Login"));
+const Messages = React.lazy(() => import("./pages/Messages"));
+const Gemini = React.lazy(() => import("./pages/Gemini"));
 
 const App = () => {
   return (

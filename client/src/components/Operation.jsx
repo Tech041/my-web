@@ -90,7 +90,7 @@ const Operation = () => {
               />
             </div>
             <div className=" flex-1 w-full h-[350px] mt-10 pt-5 relative hidden md:block  ">
-              <div className="w-full h-full bg-[url('/team3.png')]  bg-cover">
+              <div className="w-full h-full bg-[url('/software_1.webp')]  bg-cover">
                 {/* <img src="/team.png" alt="" className="w-full h-full " /> */}
               </div>
             </div>

@@ -48,11 +48,11 @@ const OurVariation = () => {
           </div>{" "}
         </div>
       </div>
-      <div className="w-full h-[400px] mt-10 pt-5 relative ">
-        <div className="w-full h-full bg-[url('/team.webp')]  bg-cover">
-          {/* <img src="/team.png" alt="" className="w-full h-full " /> */}
+      {/* <div className="w-full h-[400px] lg:h-[750px] mt-10 pt-5 relative ">
+        <div className="w-full h-full bg-[url('/software_2.webp')]  bg-cover bg-no-repeat bg-center ">
+        
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -43,10 +43,8 @@ const Hero = () => {
           </div>
           {/* team picture */}
 
-          <div className="w-full h-[400px] mt-10 pt-5 relative ">
-            <div className="w-full h-full bg-[url('/team2.webp')]  bg-cover">
-              {/* <img src="/team.png" alt="" className="w-full h-full " /> */}
-            </div>
+          <div className="w-full h-[400px] lg:h-[600px] mt-10 pt-5">
+            <div className="w-full h-full bg-[url('/software_4.webp')] bg-no-repeat bg-cover bg-right lg:bg-center"></div>
           </div>
         </div>
       </div>

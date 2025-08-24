@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 const HeroCarousel = () => {
   const items = [
     "I'M NELSON,",
-    "SOFTWARE DEVELOPER",
+    "SOFTWARE ENGINEER",
     "I SPECIALIZE",
     "IN BUILDING",
     "FAST,RESPONSIVE",

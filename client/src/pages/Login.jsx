@@ -9,20 +9,22 @@ const Login = () => {
   const navigate = useNavigate();
   const { setToken } = useContext(AppContext);
 
-  const [emailError, setEmailError] = useState("");
-  const [email, setEmail] = useState("");
+  const [passwordError, setPasswordError] = useState("");
+  const [password, setPassword] = useState("");
   const serverUrl = import.meta.env.VITE_SERVER_URL;
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      if (!email) {
-        return setEmailError("Email is required");
+      if (!password) {
+        toast.error("Password required");
+        return setPasswordError("Email is required");
       } else {
-        setEmailError("");
-        setEmail("");
+        setPasswordError("");
+        setPassword("");
       }
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData);
+      console.log("Form data", data);
 
       const res = await axios.post(serverUrl + "/api/admin/login", data);
 
@@ -47,14 +49,14 @@ const Login = () => {
         </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <input
-            type="email"
-            name="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Email"
+            type="password"
+            name="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="Password"
             className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
-          {emailError && <p className="text-red-500">{emailError}</p>}
+          {passwordError && <p className="text-red-500">{passwordError}</p>}
           <button
             type="submit"
             className="w-full bg-blue-500 text-white p-3 rounded-md hover:bg-blue-600 transition duration-300"

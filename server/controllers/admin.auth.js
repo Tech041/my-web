@@ -2,17 +2,21 @@ import jwt from "jsonwebtoken";
 
 export const login = async (req, res) => {
   try {
-    const { email } = req.body;
+    const { password } = req.body;
+    
 
-    if (!email) return;
+    if (!password) return;
 
-    if (email === process.env.ADMIN_EMAIL) {
-      const token = jwt.sign(email, process.env.JWT_SECRET);
+    if (password === process.env.ADMIN_PASSWORD) {
+      const token = jwt.sign({ password }, process.env.JWT_SECRET);
       return res.json({ success: true, token, message: "Welcome admin" });
     } else {
-      return res.json({ success: false, message: "Unauthorized access" });
+      return res
+        .status(401)
+        .json({ success: false, message: "Unauthorized access" });
     }
   } catch (error) {
-    console.log("Error logging in", error);
+    console.log("Error logging ", error);
+    return res.status(500).json({ message: "Server error" });
   }
 };

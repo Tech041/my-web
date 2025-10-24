@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 const adminSchema = new mongoose.Schema({
-  email: {
+  password: {
     type: String,
     required: true,
   },

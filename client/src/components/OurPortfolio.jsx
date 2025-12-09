@@ -70,12 +70,12 @@ const OurPortfolio = () => {
       ],
     },
     {
-      src1: "/nelpin_desk.webp",
-      src2: "/nelpin_mobile.webp",
-      type: "Visual Discovery Engine",
-      desc: "A dynamic platform built to foster social interaction and user engagement. Key features include: Secure Authentication & Authorization – ensures safe user access and data protection. Core Social Features – users can create posts, like/unlike content, comment, and save posts for later. User-Centric Design – optimized for interaction, content sharing, and community building. This application combines essential social media functionalities with a secure and scalable architecture for a smooth user experience.",
-      link: "https://nelpinterest-app.vercel.app",
-      stack: ["React.js", "Tailwind", "Node", "Express", "ImageKit", "MongoDB"],
+      src1: "/blog_web.webp",
+      src2: "/blog_mobile.webp",
+      type: "Blog website",
+      desc: "This platform is designed to foster job opportunities and professional connections while ensuring a seamless user experience.The platform organizes jobs into intuitive categories—such as Technology, Health, Finance and Education—making it simple for users to explore opportunities, engage with discussions, and quickly access what matters most. Blog posts are powered by Sanity CMS, ensuring a robust, scalable, and easily manageable content experience.",
+      link: "https://naija-jobs-hub.vercel.app/",
+      stack: ["Next.js", "TypeScript", "Tailwind", "Sanity",],
     },
   ];
 

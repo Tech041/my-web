@@ -33,13 +33,13 @@ const About = () => {
 
               <p className="">
                 I’m a Software Engineer and Founder of Neltech, passionate about
-                building scalable, user-centric web applications with the MERN
+                building scalable, user‑centric web applications with the MERN
                 stack (MongoDB, Express.js, React, Node.js). At Neltech, I focus
-                on creating modern software solutions that help businesses
+                on delivering modern software solutions that help businesses
                 streamline operations, engage users, and grow efficiently. By
-                blending technical expertise with strong problem-solving skills,
-                I deliver impactful digital products that drive growth and
-                deliver meaningful user experiences across industries.
+                combining technical expertise with strong problem‑solving
+                skills, I create impactful digital products that drive business
+                growth and deliver meaningful user experiences across industries.
               </p>
             </div>
           </div>
